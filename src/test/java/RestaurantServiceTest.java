@@ -13,13 +13,12 @@ class RestaurantServiceTest {
     LocalTime closingTime;
 
     @BeforeEach
-    public void initialise_a_new_restaurant_object(){
+    public void setUp(){
         openingTime = LocalTime.parse("10:30:00");
         closingTime = LocalTime.parse("22:00:00");
         restaurant = service.addRestaurant("Amelie's cafe","Chennai",openingTime,closingTime);
         restaurant.addToMenu("Sweet corn soup",119);
         restaurant.addToMenu("Vegetable lasagne", 269);
-
     }
 
 
