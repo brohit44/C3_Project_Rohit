@@ -68,7 +68,7 @@ class RestaurantTest {
 
     // <<<<<<<<<<<<<<<<<<<<<<<Menu Cart>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     @Test
-    public void display_order_total_of_items_selected(){
+    public void get_total_cost_of_items_chosen_from_menu_should_return_sum_of_items_selected(){
         ArrayList<String> sampleItem = new ArrayList<>();
         sampleItem.add("Sweet corn soup");
         sampleItem.add("Vegetable lasagne");
