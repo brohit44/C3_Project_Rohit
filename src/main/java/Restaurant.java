@@ -61,4 +61,8 @@ public class Restaurant {
         return name;
     }
 
+    public Integer getTotalCostOfItemsChosenFromMenu(List<String> listOfItems){
+        return null;
+    }
+
 }
