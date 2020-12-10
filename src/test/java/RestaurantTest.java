@@ -72,7 +72,7 @@ class RestaurantTest {
         ArrayList<String> sampleItem = new ArrayList<>();
         sampleItem.add("Sweet corn soup");
         sampleItem.add("Vegetable lasagne");
-        Integer orderTotal = restaurant.getTotalCostOfItemsChosenFromMenu(sampleItem);
+        int orderTotal = restaurant.getTotalCostOfItemsChosenFromMenu(sampleItem);
         assertEquals(388,orderTotal);
     }
     // <<<<<<<<<<<<<<<<<<<<<<<Menu Cart>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
